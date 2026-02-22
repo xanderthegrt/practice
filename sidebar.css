@@ -1,0 +1,108 @@
+ .sidebar {
+        position: fixed;
+        left: 0px;
+        top: 65px;
+        bottom: 0px;
+        width: 115px;
+        background-color: white;
+        z-index: 100;
+        padding-top: 5px;
+      }
+
+      .sidebar-content{
+        height:   115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+      }
+
+      .sidebar-content:hover {
+        background-color: rgb(233, 230, 230);
+      }  
+
+      .sidebar-content img { 
+        height: 40px;
+        margin-bottom: 5px;
+      } 
+
+      .sidebar-content div {
+        font-family: Roboto, Arial;
+        font-size: 12px;
+      }
+
+      @media(max-width:1200px) {
+         .sidebar {
+        position: fixed;
+        left: 0px;
+        top: 65px;
+        bottom: 0px;
+        width: 115px;
+        background-color: white;
+        z-index: 100;
+        padding-top: 5px;
+      }
+
+      .sidebar-content{
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+      }
+
+      .sidebar-content:hover {
+        background-color: rgb(233, 230, 230);
+      }  
+
+      .sidebar-content img { 
+        height: 30px;
+        margin-bottom: 5px;
+      } 
+
+      .sidebar-content div {
+        font-family: Roboto, Arial;
+        font-size: 10px;
+      }
+      } 
+
+      @media (min-width:1200.1px) {
+         .sidebar {
+        position: fixed;
+        left: 0px;
+        top: 65px;
+        bottom: 0px;
+        width: 200px;
+        background-color: white;
+        z-index: 200;
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .sidebar-content{
+        display: flex;
+        flex-direction: row;
+        height: 75px;
+        width: 200px;
+        justify-content: start;
+        align-items: center;
+        vertical-align: middle;
+      }
+
+      .sidebar-content:hover {
+        background-color: rgb(233, 230, 230);
+      }  
+
+      .sidebar-content img { 
+        height: 40px;
+      } 
+
+      .sidebar-content div {
+        font-family: Roboto, Arial;
+        font-size: 10px;
+      }
+      }

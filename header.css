@@ -1,0 +1,196 @@
+.header {
+        display: flex;
+        flex-direction: row;
+        height: 75px;
+        background-color: white;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(203, 203, 203);
+        z-index: 100 ;
+      }
+
+      .left-section {
+        width: 195px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 40px;
+      }
+
+      .menu {
+        width: 40px;
+        cursor: pointer;
+      }
+
+      .yt-logo {
+        width: 120px;
+        cursor: pointer;
+      }
+
+      .mid-section {
+        flex: 1;
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 700px;
+        display: flex;
+        align-items: center;
+      }
+
+      .searchbox {
+        flex: 1;
+        height: 40px;
+        border-radius: 1px;
+        border-style: solid;
+        border-width: 1px;
+        padding-left: 12px;
+        width: 0px;
+      }
+
+      .searchbox::placeholder {
+        font-family: Roboto, Arial;
+        font-size: 15px;
+      }
+
+      .search-button {
+        height: 43px;
+        width: 60px;
+        margin: 0px;
+        margin-left: -1px;
+        border-radius: 1px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: grey;
+        cursor: pointer;
+        position: relative;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .search-button:hover{
+        background-color: rgb(198, 197, 197);
+      }
+
+      .search-button .toolkit,
+      .voice-search-button .toolkit,
+      .upload-container .toolkit, 
+      .yt-apps .toolkit, 
+      .not-icon-count .toolkit {
+        position: absolute;
+        bottom: -35px;
+        background-color: gray;
+        color: white;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 4px;
+        font-family: Roboto, Arial;
+        opacity: 0;
+        transition: opacity 0.15s;
+        pointer-events: none;
+        white-space: nowrap;
+      }
+
+      .search-button:hover .toolkit,
+      .voice-search-button:hover .toolkit, 
+      .upload-container:hover .toolkit, 
+      .yt-apps:hover .toolkit, 
+      .not-icon-count:hover .toolkit {
+        opacity: 1;
+      }
+
+      .voice-search-button {
+        height: 35px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 35px;
+        background-color: rgb(239, 237, 237);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .voice-search-button:hover{
+        background-color: rgb(198, 197, 197);
+      }
+
+      .search-icon {
+        width: 25px;
+      }
+
+      .voice-search-icon {
+        width: 25px;
+      }
+
+      .right-section {
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        margin-right: 10px;
+      }
+
+      .upload-container, 
+      .yt-apps, 
+      .not-icon-count {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .upload-icon {
+        height: 40px;
+        cursor: pointer;
+      }
+
+      .yt-apps-icon {
+        height: 40px;
+        cursor: pointer;
+      }
+
+      .notifications-icon {
+        height: 40px;
+        cursor: pointer;
+      }
+
+      .not-icon-count {
+        position: relative;
+      }
+
+      .not-count{
+        position: absolute;
+        background-color: rgb(200, 54, 54);
+        font-size: 10px;
+        top: 1px;
+        right: 1px;
+        font-family: Arial;
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        padding-bottom: 2px;
+        border-radius: 9px;
+        
+      }
+
+      .current-user-pfp {
+        height: 50px;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+
+     
+
+      
